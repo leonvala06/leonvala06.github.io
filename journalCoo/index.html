@@ -1,0 +1,569 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+<html lang="fr">
+
+<head>
+	<title>Journal de Bord | COO</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="logo">
+				<span class="icon fa-diamond"></span>
+			</div>
+			<div class="content">
+				<div class="inner">
+					<h1>Carnet de bord</h1>
+					<h3>M214 - Rendu final</h3>
+					<h4>Responsable module : Mireille Blay</h4>
+					<p>Réalisé par <br>Léon Valabregue & Julien Satti</p>
+				</div>
+			</div>
+
+			<nav>
+				<ul>
+					<li><a href="#intro">Intro</a></li>
+					<li><a href="#uc">Use case</a></li>
+					<li><a href="#classes">Classes</a></li>
+					<li><a href="#seq">Séquence</a></li>
+					<li><a href="#code">Code</a></li>
+					<li><a href="#ccls">Ccls</a></li>
+				</ul>
+			</nav>
+
+		</header>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Intro -->
+			<article id="intro">
+				<h2 class="major">Intro</h2>
+			<p>L’objectif de ce journal de bord est de garder une trace écrite de ce que nous avons appris au cours des différents tds. Aussi, il doit être intéressant pour un autre étudiant de le lire.</p>
+				<span><img class="droite" src="images/umlpratique.png" alt="Couverture livre" width="150" height="170"/></span>
+				<p>Pour que la lecture soit la plus agréable possible, toutes nos explications sont illustrées par des digrammes que nous avons réalisés. Vous trouverez également des définitions directement extraites de l'ouvrage de Pascal Roques, <i>UML 2 par la pratique</i>, car très claires elles permettent de saisir directement certains concepts clés.</p>
+				<p>Enfin, vous pourrez à la fin de chaque notion, vous tester sur des quiz "faits maison".</p>
+				<blockquote>Une once de pratique vaut mieux qu'une tonne de théorie.</blockquote>
+				<p class="spaceOFF">Swami Sivananda</p>
+				<hr />
+				<h3 class="major">UML</h3>
+				<span class="droite"><img src="images/uml.gif" alt="" height="100" width="200"/></span>
+				<p>Qu’est-ce qu’un modèle ? Mais pourquoi modélise-t-on ?</p><p>Un modèle est une simplification de la réalité. On construit des modèles parce qu’on ne peut pas se représenter tout un système « dans notre tête » . Ainsi, le modèle nous permet de mieux comprendre le système que nous voulons développer. Sachez cependant une chose : tout modèle est faux dans le sens où il n’est qu’une représentation de la réalité.</p>
+				<blockquote>All models are wrong, but some are useful.</blockquote>
+				<p class="spaceOFF">George Box</p>
+				<p>Grâce à l’Universal Modelling System, il existe une manière de dessiner, de modéliser un système, standardisée (d’où son nom « Universal »). Tout le monde peut le comprendre : commerciaux, responsables de projets et les développeurs. Mais utiliser un seul type de modèle n’est pas suffisant pour représenter un système complexe. Pour cette raison, il existe différents types de modèles en UML que nous pouvons construire et étudier séparément, mais qui sont toujours en corrélation.</p>
+				</article>
+
+				<!-- Conclusion -->
+				<article id="ccls">
+					<h2 class="major">Conclusion</h2>
+					<p>Le mot des concepteurs.</p>
+					<h3>Léon Valabregue</h3>
+					<blockquote><p>Ce carnet de bord est pour moi une réelle fierté. J'ai investi beaucoup de temps et d'énergie que la passion m'a fait oublier de compter.</p>
+					<p>Le travail avec Julien s'est plus que bien déroulé, je le remercie particulièrement de m'avoir appris à me servir du gestionnaire de versions git, rendant le travail en collaboration encore plus agréable.</p>
+					<p>Pour ce qui est de la répartition du travail, je me suis occupé de la rédaction des rubriques et de la modélisation des diagrammes. Cela m'aura permis de revoir toutes les notions abordées au cours de ce module et d'acquérir une certaine maîtrise de l'outil de modélisation modélio.</blockquote></p>
+					<h3>Julien Satti</h3>
+					<blockquote><p>Ce carnet/journal aura été pour moi l'occasion de retravailler toutes les notions évoquées en cours et en TD, d'aider Léon à leur rédaction et présentation et de concocter des quiz en rapport avec ces enseignements... toujours avec une touche d'humour bien placée. Faire tout cela m'aura également fait retravailler le HTML/CSS et le JavaScript et m'aura permi de partager mes connaissances sur l'utilisation de Git à Léon.</p><p>Pour moi, le plus compliqué à comprendre aura été le diagramme de séquence mais en travaillant avec de nombreux exemples j'ai réussi à comprendre et à bien le maîtriser (il n'y a qu'à voir <a href="#tdseq">l'extrait de mon joli diagramme complet </a> !). J'arrive également à l'issus de cet enseignement à bien trouver le sens des relations alors que j'avais du mal au début ; je sais maintenant qu'il faut faire attention au sens des flèches car cela peut avoir un tout autre sens que celui souhaité... une erreur à ne surtout pas commettre ! Une autre chose à retenir absolument et avec laquelle j'ai eu du mal : l'identification de l'unicité ou de la multiplicité d'une association. Ma petite astuce ? Pour chercher la signification correcte, il faut regarder le chiffre sur la classe d'en face.</p><p>Enfin, le travail avec Léon s'est exécuté d'une excellente manière, les critiques constructives que l'on s'est fait à chacun aident à avoir une vision d'ensemble et des points de vue différents. Nous avons facilement réussi à collaborer, à partager le travail et à trouver des compromis... ce qui fut une expérience fortement agréable. <span class="noitalic">🤓</span></p></blockquote>
+					</article>
+
+			<!-- UC -->
+			<article id="uc">
+				<h2 class="major">Use case</h2>
+				<p>Kesako ? Un diagramme de cas d’utilisation, résumé en une phrase, répond à : « Que souhaite l’utilisateur (client) ? » . Ce diagramme a deux objectifs : d’abord de définir le système du point de vue des utilisateurs (et non des
+					développeurs) et ensuite de définir les limites précises de ce système.</p>
+				<ul>
+					<li><a href="#td1">TD1 - Introduction</a></li>
+					<li><a href="#td2">TD2 - Relations</a></li>
+					<li><a href="#td3">TD3 - Description</a></li>
+					<li><a href="#td4">TD4 - Synthèse</a></li>
+				</ul>
+				<ul class="actions">
+					<li><a href="#quiz1" class="button primary icon fa-question">QUIZ - Testez vos connaissances</a></li>
+				</ul>
+			</article>
+
+			<!-- SEQ -->
+			<article id="seq">
+				<h2 class="major">Séquence</h2>
+				<p></p>
+				<blockquote>Les diagrammes de séquence en analyse permettent de mieux comprendre l'application à réaliser. Ils restent “superficiels” dans la mesure où ils ne visent pas à mettre en avant l'architecture du système, à l'instar des diagrammes de classes qui décrivent le domaine.</blockquote>
+				<p class="spaceOFF">source : <a href="https://mbf-iut.i3s.unice.fr/doku.php?id=2018_2019:s2:td:td_sequences">mbf-iut.i3s.unice.fr</a></p>
+				<ul><li><a href="#tdseq">TD - Séquence</a></li></ul>
+				<ul class="actions">
+						<li><a href="#quiz3" class="button primary icon fa-question">QUIZ - Testez vos connaissances</a></li>
+				</ul>
+				</article>
+
+
+			<!-- TDSEQ -->
+			<article id="tdseq">
+				<h2 class="major">TD - Séquence</h2>
+				<span class="image main"><img src="images/sequence/intro.png" alt="" />Réalisé avec Modelio</span>
+				<p>Pour montrer comment les enchaînements se succèdent, on utilise le diagramme de séquence. On représente l’acteur principal à gauche, puis un objet unique représentant le système, et enfin les éventuels acteurs secondaires sollicités durant le scénario à droite du système.<p>
+				  <hr />
+				  <ol><li><h3 class="major">Ligne de vie</h3>
+				  	<span class="droite"><img src="images/sequence/lifeline.png" alt=""/></span>
+				  <p>Une ligne de vie représente un objet ou acteur participant à une interaction. La syntaxe de son libellé est :
+				  <br/><strong>nomLigneDeVie : NomClasseOuActeur</strong><br/></p>
+          <p>Une ligne de vie est une instance, donc il y a nécessairement les deux points (:) dans son libellé. Si le nom de la ligne de vie (rôle) n'est pas renseigné, on dira que c'est une instance anonyme.</p>
+				  <hr /></li>
+				  <li><h3 class="major">Période d'activité</h3>
+				  <span class="image main"><img src="images/sequence/activite.png" alt=""/>Réalisé avec Modelio</span>
+				  <blockquote>La réception des messages provoque une période d’activité (rectangle vertical sur la ligne de vie) marquant le traitement du message (spécification d’exécution dans le cas d’un appel de méthode).</blockquote>
+				  <p class="spaceOFF">source : <a href="https://lipn.univ-paris13.fr/~gerard/uml-s2/uml-cours05.html">lipn.univ-paris13.fr</a></p>
+				  <hr /></li>
+				  <li><h3 class="major">Les messages</h3>
+				  <blockquote>Objects are useless unless they can collaborate together.</blockquote>
+				  <p class="spaceOFF">source : <a href="https://slideplayer.com/slide/9003786/">IBM slideplayer</a></p>
+				  <p>Alors comment interagissent les objets entre eux ? C'est exactement ce que souligne le diagramme de séquence. Les messages sont représentés par des flèches et ordonnés chronologiquement du haut vers le bas.</p>
+				  <h4>Synchrone ou asynchrone ?</h4>
+				  <span class="image main"><img src="images/sequence/synchrone.png" alt=""/>Réalisé avec Modelio</span>
+				  <blockquote><p>Un message synchrone bloque l’expéditeur jusqu’à la réponse du destinataire. Si un objet A envoie un message synchrone à un objet B, A reste bloqué tant que B n’a pas terminé. On peut associer aux messages d’appel de méthode un message de retour (en pointillés) marquant la reprise du contrôle par l’objet émetteur du message synchrone.</p><p>
+				  Un message asynchrone n’est pas bloquant pour l’expéditeur. Le message envoyé peut être pris en compte par le récepteur à tout moment ou ignoré.</p></blockquote>
+				  <p class="spaceOFF">source : <a href="https://lipn.univ-paris13.fr/~gerard/uml-s2/uml-cours05.html">lipn.univ-paris13.fr</a></p>
+				  <p><strong>Remarque : </strong>Les messages dont B est destinataire se traduiront en ses opérations dans le code.</p></li>
+				  <li><h3 class="major">Les opérateurs de flux de contrôle</h3>
+				  <p>UML 2 a apporté d'intéréssants ajouts, en particulier les cadres d'interactions. Nous vous proposons une présentation des opérateurs loop et alt, à partir d'un exemple étudié en td.</p>
+				  <blockquote>...<ol start="5"><li>La secrétaire demande à enregistrer un paiement.</li>
+          <li>Le système lui demande si c'est par CB ou en espèce.</li>
+          <li>La secrétaire sélectionne par CB.</li>
+          <li>Le système déclenche le lecteur de carte avec le prix dû.</li>
+          <li>Le lecteur de carte confirme le paiement au Système.</li></ol>A1 : Paiement en espèce : la secrétaire valide que le paiement a été effectué.</blockquote>
+          <p class="spaceOFF">source : <a href="https://mbf-iut.i3s.unice.fr/doku.php?id=2018_2019:s2:td:td_sequences">mbf-iut.i3s.unice.fr</a></p>
+      		<span class="image main"><img src="images/sequence/loop.png" alt=""/>Réalisé avec Modelio</span>
+      		</li>
+				  </ol>
+				</article>
+
+			<!-- CLASSES -->
+			<article id="classes">
+				<h2 class="major">Classes</h2>
+				<blockquote>Le diagramme de Classes a toujours été le diagramme le plus important dans toutes les méthodes orientées objet. C'est celui que les outils de génération automatique de code utilisent en priorité. C'est également celui qui contient la plus grande gamme de notations et de variantes, d'où la difficulté d'utiliser correctement tous ces concepts.</blockquote>
+				<p class="spaceOFF"><i>UML 2 par la pratique</i>, Pascal Roques, 7e édition.</p>
+				<ul>
+				<li><a href="#td1c">TD1 - Diagramme de classes</a></li>
+					<li><a href="#td2c">TD2 - Diagramme de classes avancé</a></li></ul>
+
+					<ul class="actions">
+						<li><a href="#quiz2" class="button primary icon fa-question">QUIZ - Testez vos connaissances</a></li>
+					</ul>
+			</article>
+
+			<!-- CODE -->
+			<article id="code">
+				<h2 class="major">Du diagramme au code</h2>
+        <p>Les objectifs des derniers tds étaient de faire le lien entre la modélisation des classes et les codes correspondants. C’est une partie intéressante car on voit toute la conception préalablement établie se concrétiser.</p><p>Nous vous proposons ci-après deux exemples illustrés et commentés.</p>
+        <ul><li><a href="#codetd1">De la modélisation au code</a></li>
+        <li><a href="#codetd2">Du code à la modélisation</a></li></ul>
+				<ul class="actions">
+					<li><a href="#quiz4" class="button primary icon fa-question">QUIZ - Testez vos connaissances</a></li>
+				</ul>
+			</article>
+
+			<!-- UC TD 1 -->
+			<article id="td1">
+				<h2 class="major">TD1 - Introduction</h2>
+				<p>Ce premier TD est une introduction aux diagrammes de cas d’utilisation.</p>
+				<h3 class="major">L'acteur</h3>
+				<p>Nous avons appris durant ce TD à identifier un acteur. Pour y parvenir, on peut se poser la question : « Qui ou quoi obtient ou modifie de l’information de ce système ? » On représente un acteur de la forme suivante : </p>
+				<span><img class="gauche" src="images/acteur.png" alt="" /></span>
+				<p>Cet icône est appelé stick man, avec le nom de l’acteur sous le dessin.</p>
+				<p><strong>Attention !</strong> L’acteur représente un rôle et non une personne. Son nom sera donc écrit au singulier. </p>
+				<span><img class="droite" src="images/externe.png" alt="" /></span>
+				<p>On a également appris à reconnaître un acteur externe ou secondaire. Cet acteur peut uniquement consulter ou informer le système (par opposition à l'acteur principal pour qui le cas d’utilisation produit un résultat observable).
+					Schématiquement, l'acteur externe est encadré.</p>
+				<p>Les acteurs secondaires n’ont pas eux-mêmes de façon propre d’utiliser le GAB, d’objectif à part entière.</p>
+				<h3 class="major">Le cas d'utilisation (Use case)</h3>
+				<span class="image main"><img src="images/CasUtilisation.png" alt="" />Réalisé avec Modelio et tiré de <i>UML 2 par la pratique</i>, Pascal Roques, 7e édition.</span>
+				<p>Ce qu'il faut retenir pour les cas d'utilisation est qu'on les note par un verbe à l'infinitif. Ce verbe illustre un comportement réalisé par le système selon le point de vue d’un de ses acteurs.</p>
+				<span class="image main"><img src="images/verbe.png" alt="" />Réalisé avec Modelio</span>
+				<p>Ils sont associés à un ou plusieurs acteurs. Enfin, tous les cas d'utilisation sont regroupés dans un package système.</p>
+				<h3 class="major">Généralisation entre acteurs</h3>
+				<span class="image main"><img src="images/generalisationActeurs1.png" alt="generalisationActeurs1.png" />Réalisé avec Modelio</span>
+				<p>Une autre façon de représenter ce diagramme de cas d'utilisation est de considérer que l'acteur chef d'atelier est un mécanicien de façon plus générale :</p>
+				<span class="image main"><img src="images/generalisationActeurs2.png" alt="generalisationActeurs2.png" />Réalisé avec Modelio</span>
+				<p>L'intérêt de cette relation est de supprimer les associations entre l'acteur <i>Chef d'atelier</i> et les cas d'utilisations communs avec l'acteur <i>mécanicien.</i></p>
+			</article>
+
+			<!-- UC TD 2 -->
+			<article id="td2">
+				<h2 class="major">TD2 - Relations</h2>
+				<p>Nous avons appris au cours de ce TD qu'il existait trois types de relation. </p>
+
+						<h3 class="major">« Extend »</h3>
+						<span class="image main"><img src="images/extend.png" alt="" />Réalisé avec Modelio</span>
+						<blockquote>On utilise cette relation pour séparer un comportement optionnel ou rare du comportement obligatoire.</blockquote>
+						<p class="spaceOFF"><i>UML 2 par la pratique</i>, Pascal Roques, 7e édition.</p>
+						<p>Pendant qu'il consulte la fiche suiveuse, le mécanicien peut consulter les travaux antérieurs.</p>
+						<p><strong>Attention à l'orientation de la flèche !</strong> <em>Extend</em> signifie étendre, c'est l'option qui étend le cas d'utilisation pricipal.</p>
+						<h3 class="major">« Include »</h3>
+						<span class="image main"><img src="images/include.png" alt="" />Réalisé avec Modelio</span>
+						<blockquote>On utilise cette relation pour éviter de décrire plusieurs fois le même enchaînement, en factorisant le comportement commun dans un cas d'utilisation à part.</blockquote>
+						<p class="spaceOFF"><i>UML 2 par la pratique</i>, Pascal Roques, 7e édition.</p>
+						<p>Un mécanicien qui voudrait remplir ou consulter une fiche suiveuse <strong>doit</strong> s'identifier préalablement.</p>
+						<p><strong>Attention !</strong> Pour orienter correctement la flèche, on se demande quel cas d'utilisation nécessite / a besoin de l'autre.</p>
+
+						<h3 class="major">« Generalisation »</h3>
+						<span class="image main"><img src="images/generalisation.png" alt="" />Réalisé avec Modelio</span>
+						<p>Il s'agit ici d'expliciter différentes manières de réaliser un même cas d’utilisation. Ici, on peut s’identifier soit par reconnaissance faciale, soit par badge ou par login et mot de passe. Dans ces trois cas, le cas d'utilisation
+							général est de s'identifier.</p>
+						<p><strong>Attention !</strong> Vous trouverez aussi cette relation sous le nom de <strong>spécialisation</strong>. C'est en fait la même, ce qui change c'est le sens dans lequel on la lit. La reconnaisance faciale est une forme
+							spécialisée d'identification. </p>
+
+			</article>
+
+			<!-- UC TD 3 -->
+			<article id="td3">
+				<h2 class="major">TD3 - Description</h2>
+				<p>Ce TD visait à ce qu’on apprenne la description des cas d’utilisation, l’avant dernière étape du processus d’écriture des UC. Trois flots nous permettent de décrire chaque étape par des phrases courtes, organisées séquentiellement.</p>
+				<p><strong>Comment distinguer les flots ?</strong></p>
+				<blockquote class="spaceOFF">Nous distinguons les enchaînements alternatifs qui reprennent ensuite à une étape du scénatio nominal des enchaînements d'erreur qui terminent brutalement le cas d'utilisation en échec. L'objecti de l'acteur principal est donc
+					atteint par les scénarios nominaux et alternatifs mais pas par ceux d'erreur.</blockquote>
+				<p class="spaceOFF"><i>UML 2 par la pratique</i>, Pascal Roques, 7e édition.</p>
+
+						<h3 class="major">Préconditions</h3>
+<pre><code>/*
+* Il s’agit ici de décrire l’état dans lequel doit être
+* le système avant que  l’UC puisse commencer.
+* Toujours dans le UC du remplissage de la fiche suiveuse.
+* Information optionnelle
+* En voici un exemple:
+*/</code></pre>
+						<ol><li>La secrétaire a enregistré le client à un rendez-vous (rdv).</li>
+							<li>La secrétaire a créée une fiche suiveuse associée au client.</li>
+							<li>Le SI est connecté au boîtier spécialisé.</li></ol>
+						<h3 class="major">Flot nominal</h3>
+<pre><code>/*
+* Il s’agit ici de structurer les flots de base
+* en étapes majeures.
+* <strong>ATTENTION ! </strong> Veiller à utiliser la voix active
+* Par exemple pour l’étape 2
+* Ne pas dire “Quand le SI a identifié le mécanicien”
+* On peut et cela aide à la compréhension,
+* mettre un “=>” pour donner un exemple visant
+* à illustrer.
+*/</code></pre>
+							<ol><li>Le mécanicien demande à être identifié => il présente son badge</li>
+							<li>Le SI identifie le mécanicien. => Jean Reparebien</li>
+							<li>Le mécanicien demande à identifier le véhicule dans le système. => Jean présente la puce</li>
+							<li>Le SI identifie le véhicule. => peugeot 308 immatriculé 124PG06</li>
+							<li>Le système enregistre l’heure de début de réparation => 10h04</li>
+							<li>Le mécanicien confirme</li>
+							<li>Le SI propose des types de réparation. => durites, niveaux, vidange</li>
+							<li>Le mécanicien en choisit un</li>
+							<li>Le SI valide</li>
+							<li>Le SI propose la déconnexion</li>
+							<li>Le mécanicien se déconnecte</li>
+							</ol>
+
+						<h3 class="major">Flot alternatif</h3>
+<pre><code>/*
+* Il s’agit ici d’identifier des flots différents du flot principal
+* Mais qui ne sont pas des erreurs
+*/
+</code></pre><ul><li>
+						<p>A1 : Le mécanicien a fini sa réparation.<br/>
+						L’enchaînement A1 démarre au point 4 du scénario nominal.</p>
+						<ol start="5" class="spaceOFF"><li>Le SI enregistre l’heure de fin de réparation. => 12h15</li>
+						<li>Le mécanicien valide.</li></ol>
+						<p class="spaceOFF">Le scénario nominal reprend au point 9.</p></li>
+						<li><p>A2 : Le mécanicien souhaite consulter les travaux antérieurs.
+						<br/>L’enchaînement A2 démarre au point 5 du scénario alternatif A1.</p>
+						<ol start="6" class="spaceOFF">
+							<li>Le mécanicien refuse.</li>
+							<li>Le mécanicien demande d‘afficher les travaux antérieurs.</li>
+							<li>Le SI affiche les travaux antérieurs.</li>
+							<li>Le mécanicien quitte l’affichage des travaux antérieurs.</li></ol>
+							<p class="spaceOFF">Le scénario nominal reprend au point 10.</p></li></ul>
+
+
+						<h3 class="major">Flot d'erreur</h3>
+<pre><code>/*
+* Il faut ici identifier les cas éventuels d’erreur du SI
+* Ceux qui ne permettent pas à l’acteur
+* De réaliser le  cas d’utilisation.
+*/
+</code></pre><ul><li>
+						<p>2a. Le SI n’identifie pas le mécanicien.<br/>
+						Le SI affiche un message d’erreur => il invite le mécanicien à réessayer plus tard.</p></li>
+						<li><p>4a. Le SI n’identifie pas le véhicule.<br/>
+						Le SI affiche un message d’erreur => il invite le mécanicien à réinitialiser la puce du véhicule.</p></li></ul>
+						<h3 class="major">Postconditions</h3>
+<pre><code>/*
+* Il s’agit ici de décrire l’état dans lequel doit être le système à la fin du UC
+* Il faut l’utiliser lorsque l’état du système est une condition préalable à un autre UC.
+* Ici, cette condition est nécessaire pour que la secrétaire
+* puisse par la suite facturer le client.
+*/
+</code></pre>
+						<p>La fiche suiveuse est remplie.</p>
+			</article>
+
+			<!-- UC TD4 -->
+			<article id="td4">
+				<h2 class="major"> TD4 - Synthèse</h2>
+				<p>Nous avons profité de cette séance pour peaufiner notre glossaire dont un extrait apparaît ci-dessous.</p>
+				<h3 class="major">Glossaire</h3>
+					<ul>
+					<li>Véhicule : voiture, scooter ou trois roues.</li>
+					<li>Rdv : rendez-vous.</li>
+					<li>Chef d’atelier : un mécanicien qui dirige les autres mécaniciens.</li>
+					<li>Boitier spécialisé : boitier fourni par la société « TrustMyMechanic » avec lequel interagit le mécanicien.</li></ul>
+				<p><strong>ATTENTION</strong> : Le but n’est pas de définir les termes du développeur mais du domaine de l’application. C’est un outil de dialogue.</p>
+				<p>Nous avons fini par structurer nos cas d’utilisation en packages. Plusieurs stratégies sont possibles : les regrouper par domaines fonctionnels ou par acteurs. La dernière est celle que nous avons retenu et que nous vous conseillons car c’est la plus simple.</p>
+				 <span class="image main"><img src="images/acteurs.png" alt="" />Réalisé avec Modelio</span>
+			</article>
+
+			<!-- CODE TD1 -->
+			<article id="codetd1">
+				<h2 class="major">De la modélisation au code</h2>
+				<p>Nous allons sur l'exemple suivant passer de la modélisation au code.</p>
+				<span class="image main"><img src="images/code/spacialship.png" alt="" />source : <a href="https://mbf-iut.i3s.unice.fr/doku.php?id=2018_2019:s2:td:td_classe_code">mbf-iut.i3s.unice.fr</a></span>
+				<p>Pour y parvenir, nous vous proposons le cheminement suivant  : </p>
+				<ol>
+				<li><h3>Les classes</h3>
+				<ul>
+				<li><code>public class Armada { }</code></li>
+				<li><code>public class Engine { }</code></li>
+				<li><code>public class SpatialShip { }</code></li>
+				</ul>
+				<hr /></li>
+				<li><h3>L'héritage</h3>
+				<p>Un spatial ship est un type d'engin. Il va donc hériter de tous les attributs et méthodes d'engin. Nous devons donc rajouter le mot clé extends : </p>
+				<pre><code>public class SpatialShip extends Engine { }</code></pre>
+				<hr /></li>
+				<li><h3>Les associations</h3>
+				<p>Les associations deviennent des attributs lors du passage au code. Une Armada possède 1 à plusieurs Engin. L'attribut sera donc transcrit en un tableau d'Engin. En revanche, un Engine appartient qu'à une Armada : </p>
+				<pre><code>public class Armada {
+  private Engine[] engines;
+}</code></pre>
+				<pre><code>public class Engine {
+  private Armada belongsTo;
+}</code></pre>
+        <hr /></li>
+				<li><h3>Attributs et méthodes</h3>
+				<h4 class="major">Visibilité</h4>
+				<span class="droite"><img src="images/code/Engin.png" alt=""/></span>
+				<ul><li>"+" = public</li>
+				<li>"-" = private</li>
+				<li>"#" = protected</li></ul>
+				<pre><code>public class Engin {
+	// attributes
+	private Armada belongsTo;
+	private int power;
+
+	//methods
+	public void move(int x, int y) {
+	}
+	public void attack() {
+	}
+}</code></pre>
+<p>Nous vous avons ici donner la déclaration des méthodes, ce sera au développeur par la suite de les implémenter.</p></li></ol>
+			</article>
+
+			<!-- CODE TD2 -->
+			<article id="codetd2">
+				<h2 class="major">Du code à la modélisation</h2>
+				<p>Nous allons sur l'exemple suivant passer du code à la modélisation.</p>
+			  <pre><code>public class Avatar {
+    private String name;
+    private Position pos;
+    private Weapon[] weapons;
+
+    public Position moveDelta(int x, int y) {
+    		pos.addX(x);
+    		pos.addY(y);
+    		return pos;
+    }
+}
+
+public class Submarine extends Engine {
+	private int capacity;
+	private DecompressionChamber decompressionChamber;
+}
+</code></pre><p class="spaceOFF">source : <a href="https://mbf-iut.i3s.unice.fr/doku.php?id=2018_2019:s2:td:td_classe_code">mbf-iut.i3s.unice.fr</a></p>
+
+        <p>Pour réaliser le diagramme correspondant, nous vous proposons le même cheminement que précédemment : </p>
+        <hr />
+        <ol>
+        <li><h3>Les classes</h3>
+        <p><strong>Attention !</strong> Il ne s'agit pas seulement de des classes triviales comme : </p>
+        <pre><code>public class Avatar {...}</code></pre>
+        <p>Il faut également identifier les classes présentes dans les attributs. Pour cela, cherchez les types non primitifs : </p>
+        <pre><code>private DecompressionChamber decompressionChamber;</code></pre>
+        <p>Cela n'est clairement pas un type primitif et devra donc apparaître en tant que classe dans votre diagramme.</p>
+        <span class="image main"><img src="images/code/classes2.png" alt="" />Réalisé avec Modelio</span>
+				<hr /></li>
+				<li><h3>L'héritage</h3>
+				<span class="droite"><img src="images/code/classes3.png" alt="" /></span>
+				<p>Chaque fois que vous rencontrez le mot clé <strong>extends</strong>, il faudra modéliser une flèche de généralisation entre classes.</p>
+				<pre><code>public class Submarine extends Engine {...}</code></pre>
+				<hr /></li>
+				<li><h3>Les associations</h3>
+				<p>Toutes les classes que vous avez identifié dans les attributs d'une autre classe, présenteront des liens d'associations avec ces classes : </p>
+				<pre><code>public class Avatar {
+  ...
+  private Position pos;
+  private Weapon[] weapons;
+  ...
+}</code></pre>
+        <span class="droite"><img src="images/code/classes4.png" alt=""/></span>
+        <p><br/>Signifie qu'un Avatar a une position et peut avoir plusieurs armes.</p>
+				<pre class="refuseDroite spaceON"><code>public class Submarine ... {
+	...
+	private DecompressionChamber decompressionChamber;
+}
+</code></pre>
+        <span class="droite"><img src="images/code/classes5.png" alt=""/></span>
+        <p>Signifie qu'un Submarine a une DecompressionChamber.</p>
+        <hr /></li>
+				<li><h3>Attributs et méthodes</h3>
+				<p>Finalement, on finit par rajouter les attributs de types primitifs ainsi que les méthodes.</p>
+				<span class="image main"><img src="images/code/classes6.png" alt="" />Réalisé avec Modelio</span></li></ol>
+			</article>
+
+			<!-- QUIZ UC -->
+			<article id="quiz1">
+				<h2 class="major">Quiz Use Case</h2>
+				<span class="image main"><img src="https://media.giphy.com/media/l0MYRKCu6I9C6XTS8/giphy.gif" alt="" class="quiz" /></span>
+				<p>Testez vos connaissances sur les diagrammes d'use case de manière ludique en remplissant le quiz suivant (essayez de ne pas regarder les TP pour y répondre !).
+				</p>
+
+				<h3 class="major" style="margin-bottom:15px;">Questionnaire</h3>
+
+						<div id="quizUC" style="margin-bottom:15px;"></div>
+					<input type="submit" id="submitUC" value="Corriger le Quiz" class="primary" />
+					<div id="resultsUC"></div>
+			</article>
+
+			<!-- CLASSES TD1 -->
+			<article id="td1c">
+				<h2 class="major">Classes</h2>
+				<p>Si le diagramme de Cas d'utilisation appartient au domaine de modélisation fonctionnel, le diagramme de Classes appartient quant à lui au domaine statique.</p>
+				<span class="image main"><img src="images/classes/exemple.png" alt="" />Réalisé avec Modelio</span>
+				<hr />
+				<h3 class="major">Soyez Classe</h3>
+				<p>Le concept de Classes de ce diagramme est le même qu'en programmation Java.</p>
+				<blockquote>Une classe représente la description abstraite d'un ensemble d'objets possédant les mêmes caractéristiques. On peut parler également de type.</blockquote>
+				<span><img class="droite" src="images/classes/ordinateur.png" alt="" width="180" height="200"/></span>
+				<p class="spaceOFF"><i>UML 2 par la pratique</i>, Pascal Roques, 7e édition.</p>
+				<p>Par exemple la classe Ordinateur, la classe Personne.<br/>Ce qu'on appelle objet est une instance de la classe. L'ordinateur sur lequel vous travaillez est une instance de la classe Ordinateur, Jean Dupont est une instance de la classe Personne.</p>
+				<hr />
+				<h3 class="major">Attribut et opération</h3>
+				<blockquote>Un attribut représente un type d'information contenu dans une classe.</blockquote>
+				<span><img class="droite" src="images/classes/attributs.png" alt="" width="180" height="200"/></span>
+				<p class="spaceOFF"><i>UML 2 par la pratique</i>, Pascal Roques, 7e édition.</p>
+				<p>Exemple : constructeur, modèle, couleur, taille de l'écran sont des attributs de la classe Ordinateur.</p>
+				<p>L'opération est le service que peut rendre l'objet de la classe. Par exemple, un ordinateur peut s'allumer..</p>
+				<hr />
+				<h3>Association</h3>
+				<blockquote>Une association représente une relation sématique durable ente deux classes.</blockquote>
+				<p class="spaceOFF"><i>UML 2 par la pratique</i>, Pascal Roques, 7e édition.</p>
+				<span class="image main"><img src="images/classes/possede.png" alt="" />Réalisé avec Modelio</span>
+				<p>Exemple : Une personne peut posséder des ordinateurs. La relation <i>possède</i> est une association entre les classes Personne et Ordinateur. La cardinalité indique ici qu'une personne peut posséder plusieurs ordinateurs (entre zéro et un nombre infini quelconque : *) ; un ordinateur est possédé par une seule personne.</p>
+			</article>
+
+			<!-- CLASSES TD2 -->
+			<article id="td2c">
+				<h2 class="major">Classes - Avancé</h2>
+				<p>Au cours de ce TD nous avons découvert de nouvelles associations.</p>
+				<h3 class="major">L'aggrégation</h3>
+				<span class="image main"><img src="images/classes/agreg.png" alt="" />Réalisé avec Modelio</span>
+				<blockquote>Une aggrégation est un cas particulier d'association non symétrique exprimant une relation de contenance. Les aggrégations n'ont pas besoin d'être nommées : implicitement elles signifient « contient », « est composé de ».</blockquote>
+				<p class="spaceOFF"><i>UML 2 par la pratique</i>, Pascal Roques, 7e édition.</p>
+				<h3 class="major">La composition</h3>
+				<span class="image main"><img src="images/classes/compo.png" alt="" />Réalisé avec Modelio</span>
+				<p>La composition est une aggrégation plus forte. Ici, la Case appartient obligatoirement à un échiquier, il n'existe pas de Case en tant que telle. L'échiquier en est composé, et la destruction de l'aggrégat composite (ici l'Echiquier) entraine la destruction des éléments qui le composent (ici les Piece).</p>
+				<p><strong>Attention !</strong> Au début, positionner le losange du bon côté n'est pas évident. Associez le losange au "Tout", pour vous souvenir que les Parties forment le Tout : </p>
+				<span class="image main"><img src="images/classes/tout.png" alt="" />Réalisé avec Modelio</span>
+				<hr />
+				<h3 class="major">La généralisation</h3>
+				<span class="image main"><img src="images/classes/generalisation.png" alt="" />Réalisé avec Modelio</span>
+				<blockquote>Une super-classe est une classe plus générale reliée à une ou plusieurs autres classes plus spécialisées (sous-classes) par une relation de généralisation. Les sous-classes « héritent » des propriétés de leur super-classe et peuvent comporter des propriétés spécifiques supplémentaires.</blockquote>
+			 <p class="spaceOFF"><i>UML 2 par la pratique</i>, Pascal Roques, 7e édition.</p>
+			 <p><strong>Attention au sens de le fléche !</strong> La généralisation s'oriente de maniére à ce qu'on puisse dire « est un type de ». </p>
+			</article>
+
+			<!-- QUIZ CLASSE -->
+			<article id="quiz2">
+				<h2 class="major">Quiz Classes</h2>
+				<span class="image main"><img src="https://media.giphy.com/media/l0MYRKCu6I9C6XTS8/giphy.gif" alt="" class="quiz" /></span>
+				<p>Testez vos connaissances sur les diagrammes de classe de manière ludique en remplissant le quiz suivant (essayez de ne pas regarder les TP pour y répondre !).
+				</p>
+
+				<h3 class="major" style="margin-bottom:15px;">Questionnaire</h3>
+
+						<div id="quizCLASSE" style="margin-bottom:15px;"></div>
+					<input type="submit" id="submitCLASSE" value="Corriger le Quiz" class="primary" />
+					<div id="resultsCLASSE"></div>
+			</article>
+
+			<!-- QUIZ SEQ -->
+			<article id="quiz3">
+				<h2 class="major">Quiz Séquence</h2>
+				<span class="image main"><img src="https://media.giphy.com/media/l0MYRKCu6I9C6XTS8/giphy.gif" alt="" class="quiz" /></span>
+				<p>Testez vos connaissances sur les diagrammes de séquence de manière ludique en remplissant le quiz suivant (essayez de ne pas regarder les TP pour y répondre !).
+				</p>
+
+				<h3 class="major" style="margin-bottom:15px;">Questionnaire</h3>
+
+						<div id="quizSEQ" style="margin-bottom:15px;"></div>
+					<input type="submit" id="submitSEQ" value="Corriger le Quiz" class="primary" />
+					<div id="resultsSEQ"></div>
+			</article>
+
+
+						<!-- QUIZ SEQ -->
+						<article id="quiz4">
+							<h2 class="major">Quiz Code</h2>
+							<span class="image main"><img src="https://media.giphy.com/media/l0MYRKCu6I9C6XTS8/giphy.gif" alt="" class="quiz" /></span>
+							<p>Testez vos connaissances sur le passage de la modélisation au code de manière ludique en remplissant le quiz suivant (essayez de ne pas regarder les TP pour y répondre !).
+							</p>
+
+							<h3 class="major" style="margin-bottom:15px;">Questionnaire</h3>
+
+									<div id="quizCODE" style="margin-bottom:15px;"></div>
+								<input type="submit" id="submitCODE" value="Corriger le Quiz" class="primary" />
+								<div id="resultsCODE"></div>
+						</article>
+
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<p>&copy; 2019 <a href="mailto:leon.valabregue@etu.univ-cotedazur.fr">Léon</a> & <a href="mailto:hi@juliensatti.com">Julien</a> | Design par <a href="https://html5up.net">HTML5 UP</a>.</p>
+			</h4></h4></footer>
+
+	</div>
+
+	<!-- BG -->
+	<div id="bg"></div>
+
+	<!-- Scripts -->
+	<script src="assets/js/quizUC.js" charset="utf-8"></script>
+	<script src="assets/js/quizCLASSE.js" charset="utf-8"></script>
+	<script src="assets/js/quizSEQ.js" charset="utf-8"></script>
+		<script src="assets/js/quizCODE.js" charset="utf-8"></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
