@@ -1,0 +1,74 @@
+  .droite {
+    float:right;
+  }
+  
+  .gauche {
+    float:left;
+  }
+  
+  .nonDroite{
+    clear:right;
+  }
+  
+  .nonGauche{
+    clear:left;
+  }
+  
+  #dut {
+    margin-top: 10%;
+  }
+  
+  h3+p,h3+img {
+    margin-top: 5%;
+  }
+  
+  #par2 {
+    margin-top: 22%;
+  }
+  
+  #diplome {
+     width:60%;
+     margin-top: 10%;
+     border: 10px solid black;
+  }
+  
+  #releveDeNotes {
+    width:30%;
+    margin-top: 10%;
+    border: 2px solid black;
+  }
+  
+  
+  .espaceGauche {
+    margin-left: 55%;
+  }
+  
+  .espaceHaut {
+    margin-top: 5%;
+  }
+  
+  img~h3 {
+    margin-top: 10%;
+  }
+  
+  #majorProm {
+    margin-left: 30%;
+    margin-top: 15%;
+  }
+  a{
+    text-align: center;
+  }
+  tr>td {
+    font-weight: bold;
+  }
+  
+  td+td {
+    font-weight: normal;
+  }
+  
+  tr:nth-child(even) {
+  background-color: #ffffcc;
+}
+  tr:nth-child(odd) {
+  background-color: #ffee99;
+}
